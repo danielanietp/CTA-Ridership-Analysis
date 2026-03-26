@@ -18,37 +18,7 @@ The goal was to transform raw transit data into a clean, structured dataset and 
 
 ---
 
-## Project Structure
-
-CTA-Project/
-│
-├── data/
-│ ├── ridership.csv
-│ ├── l_stops.csv
-│ ├── yearly_rides_per_station_line.xlsx
-│ ├── yearly_rides_yoy_per_line.xlsx
-│
-├── sql/
-│ ├── 01_create_tables.sql
-│ ├── 02_load_data.sql
-│ ├── 03_clean_data.sql
-│ ├── 04_sanity_checks.sql
-│ ├── 05_add_missing_stations.sql
-│ ├── 06_yearly_rides_per_station_line.sql
-│ ├── 07_yearly_rides_yoy_per_line.sql
-│
-├── scripts/
-│ └── fetch_data.sh
-│
-├── tableau/
-│ └── dashboard_screenshot.png
-│
-└── README.md
-
-
----
-
-## 🔄 Data Pipeline
+## Data Pipeline
 
 1. **Data Ingestion**
    - Pulled CTA datasets via API
