@@ -1,0 +1,15 @@
+USE cta_database;
+
+LOAD DATA LOCAL INFILE '~/Desktop/Dani/CTA\ Project/Data/ridership.csv'
+INTO TABLE ridership
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+LOAD DATA LOCAL INFILE '~/Desktop/Dani/CTA\ Project/Data/l_stops.csv'
+INTO TABLE l_stops
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
