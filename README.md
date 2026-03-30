@@ -53,7 +53,7 @@ The goal was to transform raw transit data into a clean, structured dataset and 
 
 ## Dashboard
 
-👉 [View Tableau Dashboard](#) *(https://public.tableau.com/app/profile/daniela.nieto.prada5218/viz/CTARidershipDashboard/Dashboard1)*
+👉 [View Tableau Dashboard](#https://public.tableau.com/app/profile/daniela.nieto.prada5218/viz/CTADashboard_17748976779800/Dashboard1)
 
 The dashboard includes:
 - Ridership trends over time
